@@ -1,0 +1,38 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro comparacao
+		real maior, num1, num2
+
+		comparacao = 0
+		maior = 0.0
+		num
+		faca {
+			se (maior == 0) {
+				escreva("Digite um valor a ser comparado: ")
+				leia(num1)
+
+				escreva("Digite outro valor a ser comparado: ")
+				leia(num2)
+
+				se(num1 > num2){
+					maior = num1
+					} senao {
+						maior = num2 
+					}
+			} senao {
+				escreva("Digite um valor a ser comparado: ")
+				leia(num1)
+
+				se(maior < num2){
+					maior = num1
+					} senao {
+						maior = num1 
+					}
+			}
+			comparacao++
+		} enquanto (comparacao < 15)
+	}
+}
